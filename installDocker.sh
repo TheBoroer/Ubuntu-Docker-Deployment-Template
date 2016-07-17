@@ -12,3 +12,6 @@ sudo apt-get install --yes linux-image-extra-$(uname -r)
 sudo apt-get install --yes docker-engine=1.9.1-0~trusty
 
 sudo service docker start
+
+# Install python-mysqldb module
+sudo apt-get install --yes python-mysqldb
