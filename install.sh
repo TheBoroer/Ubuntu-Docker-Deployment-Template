@@ -16,4 +16,4 @@ sudo apt-get install --yes docker-engine=1.9.1-0~trusty
 sudo service docker start
 
 # Install some other extrs I'll need later
-sudo apt-get install --yes python-mysqldb htop vnstat
+sudo apt-get install --yes --force-yes python-mysqldb htop vnstat
